@@ -1,0 +1,1 @@
+This prj to be pasted ini tomcat/webapps folder

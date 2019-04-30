@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="start" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #54575b;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bach.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <ImageView fitHeight="445.0" fitWidth="423.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@abc%20(2).jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="488.0" layoutY="35.0" text="Rules" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="442.0" layoutY="120.0" text="No Internet Browser." textFill="#fffafa">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="442.0" layoutY="169.0" text="No external drives allowed." textFill="#fcf7f7">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="442.0" layoutY="229.0" text="Terminating this program will notify admin." textFill="#fffefe">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="start123" layoutX="452.0" layoutY="368.0" mnemonicParsing="false" onAction="#start" prefHeight="41.0" prefWidth="194.0" text="Start" />
+      <TextField fx:id="prn" layoutX="427.0" layoutY="272.0" promptText="PRN number" />
+    </children>
+</AnchorPane>
